@@ -1,0 +1,13 @@
+[package]
+name = "nimbus-agent"
+version = "0.1.0"
+authors = ["zach"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2", features = ["macros", "time"]}
+warp = "0.2"
+serde = { version = "1.0.104", features = ["derive"] }
+bollard = "0.5.0"
